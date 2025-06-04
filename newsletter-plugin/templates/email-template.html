@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Newsletter</title>
+  <!-- Ensures correct scaling on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, sans-serif;">
+
+  <!-- Main wrapper (full-width) -->
+  <table 
+    width="100%"
+    border="0"
+    cellspacing="0"
+    cellpadding="0"
+    align="center"
+    style="border-collapse: collapse; background-color: #f4f4f4;"
+  >
+    <tr>
+      <td align="center" style="padding: 0; border-collapse: collapse;">
+
+        <!-- Inner hybrid container: 600 px for Outlook, 100 % for mobile -->
+        <table
+          width="600"
+          border="0"
+          cellspacing="0"
+          cellpadding="0"
+          align="center"
+          style="width: 100%; max-width: 600px; border-collapse: collapse; background-color: #ffffff;"
+        >
+          <!-- Header -->
+          <tr>
+            <td
+              align="center"
+              style="padding: 20px 0; text-align: center; background-color: #F5F5F5;"
+            >
+              <a href="#" style="text-decoration: none;">
+                <!-- Replace with your own logo URL -->
+                <img
+                  src="https://via.placeholder.com/600x100?text=Your+Logo"
+                  alt="Company Logo"
+                  border="0"
+                  style="width: 100%; max-width: 600px; height: auto; display: block; border: none;"
+                />
+              </a>
+            </td>
+          </tr>
+
+          <!-- Main content -->
+          <tr>
+            <td style="padding: 20px; text-align: left;">
+
+              <!-- Top banner -->
+              <table
+                width="100%"
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+                style="border-collapse: collapse; background-color: transparent;"
+              >
+                <tr>
+                  <td
+                    align="center"
+                    style="padding: 50px 0 31px;"
+                  >
+                    <a href="#" style="text-decoration: none;">
+                      <!-- Replace with your own banner image URL -->
+                      <img
+                        src="https://via.placeholder.com/600x200?text=Sponsored+Banner"
+                        alt="Sponsored Banner"
+                        border="0"
+                        style="display: block; width: 100%; max-width: 600px; height: auto; border: none;"
+                      />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Section: Most-read -->
+              <table
+                width="100%"
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+                style="border-collapse: collapse; background-color: transparent;"
+              >
+                <tr>
+                  <td align="left" style="text-align: left;">
+                    <h2 style="color: #071640; margin: 0 0 10px; font-weight: normal; font-size: 24px;">
+                      Lo más leído
+                    </h2>
+
+                    <!-- 5 popular posts will be injected here -->
+                    [ultimas_5_notas]
+
+                    <div style="text-align: center; margin-top: 20px;">
+                      <a
+                        href="#"
+                        style="text-decoration: none; color: #000; font-weight: bold; font-size: 16px;"
+                      >
+                        VER MÁS NOTICIAS
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Section: Upcoming events -->
+              <table
+                width="100%"
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+                style="border-collapse: collapse; background-color: transparent; margin-top: 20px;"
+              >
+                <tr>
+                  <td align="center" style="text-align: center;">
+                    <!-- The next 3 events will be injected here -->
+                    [proximos_eventos]
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- Footer (social + contact) -->
+          <tr>
+            <td
+              align="center"
+              style="padding: 20px; background-color: #f4f4f4; text-align: center;"
+            >
+              <!-- Inner footer table -->
+              <table 
+                width="100%"
+                border="0"
+                cellspacing="0"
+                cellpadding="0"
+                style="border-collapse: collapse;"
+              >
+                <!-- Row: Follow us -->
+                <tr>
+                  <td align="center" style="padding: 10px;">
+                    <h2 style="margin: 0; font-size: 18px; font-weight: normal;">
+                      Síguenos
+                    </h2>
+                    <p style="margin: 5px 0; font-size: 14px;">
+                      Mantente al día con nuestras novedades.
+                    </p>
+                    <br />
+
+                    <!-- Social icons (center aligned) -->
+                    <div style="text-align: center;">
+                      <a href="#" style="margin: 0 5px;">
+                        <img src="https://via.placeholder.com/30?text=T" alt="Twitter" style="width: 30px; height: 30px; border: none; display: inline-block;" border="0" />
+                      </a>
+                      <a href="#" style="margin: 0 5px;">
+                        <img src="https://via.placeholder.com/30?text=In" alt="LinkedIn" style="width: 30px; height: 30px; border: none; display: inline-block;" border="0" />
+                      </a>
+                      <a href="#" style="margin: 0 5px;">
+                        <img src="https://via.placeholder.com/30?text=F" alt="Facebook" style="width: 30px; height: 30px; border: none; display: inline-block;" border="0" />
+                      </a>
+                      <a href="#" style="margin: 0 5px;">
+                        <img src="https://via.placeholder.com/30?text=I" alt="Instagram" style="width: 30px; height: 30px; border: none; display: inline-block;" border="0" />
+                      </a>
+                      <a href="#" style="margin: 0 5px;">
+                        <img src="https://via.placeholder.com/30?text=WI" alt="WhatsApp" style="width: 30px; height: 30px; border: none; display: inline-block;" border="0" />
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+
+                <!-- Row: Contact -->
+                <tr>
+                  <td align="center" style="padding: 10px;">
+                    <h2 style="margin: 0; font-size: 18px; font-weight: normal;">
+                      Contacto
+                    </h2>
+                    <p style="margin: 5px 0; font-size: 14px;">
+                      Si tienes preguntas, contáctanos.
+                    </p>
+                    <br />
+                    <p style="margin: 5px 0; font-size: 14px;">
+                      <a href="mailto:contacto@empresa.com" style="color: #071640; text-decoration: underline;">contacto@empresa.com</a> |
+                      <a href="#" style="color: #071640; text-decoration: underline;"><strong>Whatsapp</strong></a>
+                    </p>
+                    <br />
+                    <p style="margin: 5px 0; font-size: 14px;">Dirección de la empresa, Ciudad, País</p>
+                  </td>
+                </tr>
+
+                <!-- Row: Unsubscribe -->
+                <tr>
+                  <td align="center" style="padding: 10px;">
+                    <p style="margin: 5px 0; font-size: 14px;">
+                      Si no deseas recibir más correos, puedes
+                      <a href="[unsubscribe_link]" style="color: #071640; text-decoration: underline; font-weight: bold;">darte de baja aquí</a>
+                    </p>
+                  </td>
+                </tr>
+
+              </table>
+              <!-- /Inner footer table -->
+            </td>
+          </tr>
+        </table>
+        <!-- /Inner container 600 px (hybrid) -->
+      </td>
+    </tr>
+  </table>
+  <!-- /Main wrapper (100 %) -->
+
+</body>
+</html>
